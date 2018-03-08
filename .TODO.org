@@ -1,6 +1,10 @@
 # UromKala Project 
 
+[2018-3-9 Fri]
+** TODO Add Logo 
+** TODO add category
+
 
 [2018-3-8 Thu]
-** TODO define main screen 
-** TODO add UI kit
+** DONE define main screen 
+** DONE add UI kit
