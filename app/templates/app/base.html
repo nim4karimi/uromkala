@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UromKala</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/assets/css/uikit-rtl.min.css' %}">
+    
+</head>
+
+<body>
+
+    {% block content %} {% endblock %} 
+
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+    <script src="{% static 'assets/js/uikit.min.js' %}"></script>
+    <script src="{% static 'assets/js/uikit-icons.min.js' %}"></script>
+</body>
+</html>

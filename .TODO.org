@@ -1,0 +1,6 @@
+# UromKala Project 
+
+
+[2018-3-8 Thu]
+** TODO define main screen 
+** TODO add UI kit
