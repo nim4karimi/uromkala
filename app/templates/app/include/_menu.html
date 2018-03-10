@@ -1,19 +1,32 @@
-<nav class="uk-navbar-container" uk-navbar>
+{% load static %}
+<nav class="uk-navbar-container gr" uk-navbar>
+    <div class="uk-navbar">
+        <img class="uk-navbar-item uk-logo" src="{% static '/app/img/Top_logo.png' %}" alt="اروم کالا">
+    </div>
     <div class="uk-navbar-right">
-
         <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="#">خانه</a></li>
+            <li class="uk-active wh">
+                <a href="/"> <span uk-icon="icon: home"> </span>  خانه </a>
+            </li>
             <li>
-                <a href="#">خدمات</a>
+                <a class="wh" href="#"><span uk-icon="icon:  thumbnails"></span> خدمات</a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">تعمیرات</a></li>
-                        <li><a href="#">تست</a></li>
-                        <li><a href="#">تست</a></li>
+                        <li class="uk-active">
+                            <a href="#"><span uk-icon="icon: cog"></span>  تعمیرات</a>
+                        </li>
+                        <li>
+                            <a href="#"><span uk-icon="icon: check"></span>  کولر</a>
+                        </li>
+                        <li>
+                            <a href="#"><span uk-icon="icon: check"></span> تست</a>
+                        </li>
                     </ul>
                 </div>
             </li>
-            <li><a href="#">تست</a></li>
+            <li>
+                <a class="wh" href="#"><span uk-icon="icon: check"></span> تست</a>
+            </li>
         </ul>
 
     </div>

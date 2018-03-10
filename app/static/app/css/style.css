@@ -24,3 +24,14 @@ body{
   text-align: right !important;
   background-color: #eeeeeec2 !important;
 }
+
+.gr {
+  background-image: linear-gradient(to right, #00f2fe 0% , #4facfe 100%)!important;
+}
+
+.wh a{
+  color: white !important;
+}
+.wh {
+  color: white !important;
+}
