@@ -1,11 +1,11 @@
 from django.conf import settings
 from django.urls import re_path , path
 from django.views.static import serve
-from .views import index 
+from .views import Home
 
 
 urlpatterns = [
-    path('', index),
+    path('', Home),
 ]
 
 
