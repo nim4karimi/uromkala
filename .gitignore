@@ -1,2 +1,8 @@
 *.pyc
 __pycach__
+db.sqlite3
+uromkala/__pycach__
+app/__pycach__
+*.egg-info
+*.pot
+*.py[co]

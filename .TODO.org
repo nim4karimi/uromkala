@@ -4,7 +4,7 @@
 ** TODO Add Logo 
 ** TODO add category
 
-
+Yes
 [2018-3-8 Thu]
 ** DONE define main screen 
 ** DONE add UI kit
