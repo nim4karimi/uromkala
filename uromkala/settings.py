@@ -25,7 +25,7 @@ SECRET_KEY = 'yfb_tk2=kodh&nw+)4z2kb+dju%b(c0ctc3mabn))k-ho@hb%!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.uromkala.ir','127.0.0.1']
+ALLOWED_HOSTS = ['.uromkala.ir','127.0.0.2']
 
 
 # Application definition
